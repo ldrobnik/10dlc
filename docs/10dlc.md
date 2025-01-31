@@ -13,13 +13,13 @@ import Lead from "@site/src/components/Lead";
 
 ## What is 10DLC?
 
-10DLC stands for "10-digit long codes." They're local US phone numbers (like "(555) 123-4567") that businesses use to send text messages.
+10DLC stands for "10-digit long codes." They're US phone numbers that businesses use to send text messages.
 
-Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs look like regular local phone numbers.
+Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs look like regular local phone numbers (such as "(555) 123-4567") .
 
-Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be Application-to-Person traffic.
+Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person (A2P) traffic.
 
-To use 10DLCs as sender IDs for Application-to-Person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
+To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
 :::note
 You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
