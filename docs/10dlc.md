@@ -5,7 +5,7 @@ slug: /
 
 import Lead from "@site/src/components/Lead";
 
-# Wavix 10DLC guide
+# Registering 10DLC brands and campaigns
 
 <Lead>
   This guide explains how to register a 10DLC Brand and Campaign to send
