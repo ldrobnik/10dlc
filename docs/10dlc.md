@@ -8,7 +8,7 @@ import Lead from "@site/src/components/Lead";
 # Registering 10DLC brands and campaigns
 
 <Lead>
-  This guide explains how to register a 10DLC Brand and Campaign to send
+  This guide explains how to register a 10DLC brand and campaign to send
   messages using US local 10-digit long codes
 </Lead>
 
@@ -21,22 +21,18 @@ For the purpose of this guide, we will use the following Wavix gateways:
 - Register your Brand
 - Register your Campaign and outbound numbers (aka 10DLCs or Sender IDs)
 
-## What is The Campaign Registry?
+### What is required to use 10DLC messaging?
 
 The Campaign Registry (TCR) is the central hub for registering Application-to-Person messaging Campaigns in North America.
 
 :::note
-
 You must register a Brand and a Campaign if you’re using 10-digit local phone numbers as Sender IDs. This requirement does not apply in case you are using toll-free numbers or short codes.
-
 :::
 
 Keep in mind that:
 
 - Each Brand registration must be pre-approved by mobile carriers
 - Actual message throughput is determined by carriers after the registration is approved and depends on the provided Brand details and actual message content
-
-## 10DLC Brand and Campaign registration
 
 The Wavix platform allows its customers to register 10DLC Brands and Campaigns directly from the user interface.
 
@@ -46,7 +42,9 @@ The information you provide during the registration process might affect message
 
 :::
 
-## Brand registration
+## 10DLC brand registration
+
+### Before you begin
 
 ### Registration types
 
@@ -57,12 +55,10 @@ Depending on the legal status of your business, you can choose either **Quick** 
 **Standard** registration requires detailed company information and offers higher throughput. Brands can have up to fifty 10DLC Campaigns, with up to forty-five 10DLC phone numbers per Campaign.
 
 :::note
-
 Mobile carriers automatically allocate message throughput based on the submitted Brand details and message content.
-
 :::
 
-### Brand registration process
+### Registering a brand
 
 To register a Brand you need to provide complete, accurate, and up-to-date information about your organization, including:
 
@@ -100,13 +96,13 @@ If your Brand can not be verified, you can resubmit the form after updating the 
 
 Wavix provides feedback to help you identify possible data inaccuracies.
 
-## Campaign registration
+## 10DLC campaign registration
 
-### Prerequisites
+### Before you begin
 
 Before registering a 10DLC Campaign, you need to have an active US local phone number on your account.
 
-### Campaign registration process
+### Registering a campaign
 
 Each 10DLC Campaign should describe your specific use case, and the content of SMS and MMS actually sent.
 
@@ -145,19 +141,19 @@ Select all the Campaign attributes that apply to your Campaign and message conte
 
 Click Next to specify additional details of your Campaign.
 
-### Handling STOP, START, and HELP keywords (Optional)
+### Handling keywords (Optional)
 
 Wavix supports all standard opt-in and opt-out keywords by default. Please note that all additional keywords are case-insensitive.
 
-### Handling STOP keywords
+#### Handling STOP keywords
 
 Add custom, comma-separated opt-out keywords if needed. US mobile carriers require you to provide a response (aka acknowledgment) when a person sends any STOP keyword. Enter the acknowledgement message your customers will receive if they opted out.
 
-### Handling START keywords
+#### Handling START keywords
 
 Add custom, comma-separated opt-in keywords if needed. US mobile carriers require you to provide a response when a person sends any START keyword. Enter the acknowledgement message your customers will receive if they opted in.
 
-### Handling HELP keywords
+#### Handling HELP keywords
 
 Your customers might reply with the word "HELP" or any custom HELP keyword to learn more about the messages that they're receiving from you. List all comma-separated HELP keywords and specify the message to be sent back when any of the HELP keywords are received.
 
@@ -200,9 +196,7 @@ Review your Campaign details. In case of any errors click Back and update the ne
 </figure>
 
 :::note
-
 Campaign registration and monthly fees for the first three months will be deducted from your account automatically.
-
 :::
 
 Standard Use case Campaigns are automatically approved and become Active. Special Use case Campaigns may require additional approval by mobile carriers before activation. Once the Campaign is Active, you can start messaging.
