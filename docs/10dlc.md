@@ -8,7 +8,7 @@ import Lead from "@site/src/components/Lead";
 # Registering 10DLC brands and campaigns
 
 <Lead>
-  This guide explains how to register a 10DLC brand and campaign to send messages using 10-digit long codes
+  This guide explains how to register a brand and campaign to send messages using 10-digit long codes (10DLCs)
 </Lead>
 
 ## What is 10DLC?
