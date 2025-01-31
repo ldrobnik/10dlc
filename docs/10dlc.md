@@ -8,62 +8,61 @@ import Lead from "@site/src/components/Lead";
 # Registering 10DLC brands and campaigns
 
 <Lead>
-  This guide explains how to register a 10DLC brand and campaign to send
-  messages using US local 10-digit long codes
+  This guide explains how to register a 10DLC brand and campaign to send messages using 10-digit long codes
 </Lead>
 
 ## What is 10DLC?
 
-10DLC stands for “10-digit long code” and allows businesses to send Application-to-Person messages using standard, local 10-digit phone numbers as Sender IDs. Carriers in the US consider all messages (i.e., SMS and MMS) that are sent using a messaging provider like Wavix to be Application-to-Person traffic.
+10DLC stands for "10-digit long codes." They're local US phone numbers (like "(555) 123-4567") that businesses use to send text messages.
 
-For the purpose of this guide, we will use the following Wavix gateways:
+Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs look like regular local phone numbers.
 
-- Register your Brand
-- Register your Campaign and outbound numbers (aka 10DLCs or Sender IDs)
+Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be Application-to-Person traffic.
 
-### What is required to use 10DLC messaging?
-
-The Campaign Registry (TCR) is the central hub for registering Application-to-Person messaging Campaigns in North America.
+To use 10DLCs as sender IDs for Application-to-Person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
 :::note
-You must register a Brand and a Campaign if you’re using 10-digit local phone numbers as Sender IDs. This requirement does not apply in case you are using toll-free numbers or short codes.
+You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
 :::
 
-Keep in mind that:
+The Wavix platform allows you to register 10DLC brands and campaigns directly from the user interface.
 
-- Each Brand registration must be pre-approved by mobile carriers
-- Actual message throughput is determined by carriers after the registration is approved and depends on the provided Brand details and actual message content
+:::warning
 
-The Wavix platform allows its customers to register 10DLC Brands and Campaigns directly from the user interface.
-
-:::info[Important]
-
-The information you provide during the registration process might affect message throughput. Please ensure you provide up-to-date and accurate details.
+Always provide up-to-date and accurate details during the registration process. The information you enter might affect message throughput.
 
 :::
+
+This guide uses the following Wavix gateways:
+
+- Register your Brand
+- Register your campaign and outbound numbers (aka 10DLCs or Sender IDs)
 
 ## 10DLC brand registration
 
-### Before you begin
+Keep in mind that:
+
+- Each brand registration must be pre-approved by mobile carriers
+- Actual message throughput is determined by carriers after the registration is approved and depends on the provided brand details and actual message content
 
 ### Registration types
 
-Depending on the legal status of your business, you can choose either **Quick** or **Standard** Brand registration.
+Depending on the legal status of your business, you can choose either **Quick** or **Standard** brand registration.
 
-**Quick** registration is restricted to sole proprietors without an EIN or Tax ID and requires fewer Brand details to be provided during the registration process. Brands selecting the Quick registration are limited to a single 10DLC phone number and have low messaging throughput.
+**Quick** registration is restricted to sole proprietors without an EIN or Tax ID and requires fewer brand details to be provided during the registration process. Brands selecting the Quick registration are limited to a single 10DLC phone number and have low messaging throughput.
 
-**Standard** registration requires detailed company information and offers higher throughput. Brands can have up to fifty 10DLC Campaigns, with up to forty-five 10DLC phone numbers per Campaign.
+**Standard** registration requires detailed company information and offers higher throughput. Brands can have up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
 
 :::note
-Mobile carriers automatically allocate message throughput based on the submitted Brand details and message content.
+Mobile carriers automatically allocate message throughput based on the submitted brand details and message content.
 :::
 
 ### Registering a brand
 
-To register a Brand you need to provide complete, accurate, and up-to-date information about your organization, including:
+To register a brand you need to provide complete, accurate, and up-to-date information about your organization, including:
 
 - Brand name or DBA name
-- The website address, optional for Quick Brand registration
+- The website address, optional for Quick brand registration
 - Company legal name
 - Industry or vertical the business operates in
 - Country of registration
@@ -75,7 +74,7 @@ To register a Brand you need to provide complete, accurate, and up-to-date infor
 - Company support email address and phone number
 - The company’s business address must exactly match the legal address in the registration documents
 
-If you’ve chosen **Quick** registration, you have to provide the contact details of the business owner. For **Standard** registration, contact details must contain the first and last name of the person filing the Brand registration request.
+If you’ve chosen **Quick** registration, you have to provide the contact details of the business owner. For **Standard** registration, contact details must contain the first and last name of the person filing the brand registration request.
 
 <figure>
 
@@ -84,15 +83,15 @@ If you’ve chosen **Quick** registration, you have to provide the contact detai
 <figcaption>Fig. 1 Brand registration</figcaption>
 </figure>
 
-After providing the information, click Next to view the Brand registration summary page and check the provided details. If you need to update any of the fields, click Back to go to the previous step.
+After providing the information, click Next to view the brand registration summary page and check the provided details. If you need to update any of the fields, click Back to go to the previous step.
 
-If the information is correct, confirm a non-refundable Brand registration fee and click Submit.
+If the information is correct, confirm a non-refundable brand registration fee and click Submit.
 
 ### Brand registration status
 
-The Brand registration status is based on the accuracy of the submitted information. The Campaign Registry (TCR) Administrator will locate and confirm the existence of the Company you submitted by checking against several databases and utilizing verification software. Correct legal company name and address, EIN or Tax ID are extremely important for obtaining a ‘Verified’ status.
+The brand registration status is based on the accuracy of the submitted information. The Campaign Registry (TCR) Administrator will locate and confirm the existence of the Company you submitted by checking against several databases and utilizing verification software. Correct legal company name and address, EIN or Tax ID are extremely important for obtaining a ‘Verified’ status.
 
-If your Brand can not be verified, you can resubmit the form after updating the Brand details.
+If your brand can not be verified, you can resubmit the form after updating the brand details.
 
 Wavix provides feedback to help you identify possible data inaccuracies.
 
@@ -100,22 +99,22 @@ Wavix provides feedback to help you identify possible data inaccuracies.
 
 ### Before you begin
 
-Before registering a 10DLC Campaign, you need to have an active US local phone number on your account.
+Before registering a 10DLC campaign, you need to have an active US local phone number on your account.
 
 ### Registering a campaign
 
-Each 10DLC Campaign should describe your specific use case, and the content of SMS and MMS actually sent.
+Each 10DLC campaign should describe your specific use case, and the content of SMS and MMS actually sent.
 
-To register a new 10DLC Campaign, you need to provide the following information:
+To register a new 10DLC campaign, you need to provide the following information:
 
 - A campaign name that will be used for reference purposes
-- A detailed Campaign description
+- A detailed campaign description
 - Use case that describes your messaging scenario
 - Exact examples of messages that will be sent
 
 :::info[Important]
 
-The Campaign description, Use case, and message samples need to be as exact as possible. Mobile carriers may check them to confirm if the provided details actually apply to the content of messages being sent.
+The campaign description, Use case, and message samples need to be as exact as possible. Mobile carriers may check them to confirm if the provided details actually apply to the content of messages being sent.
 
 :::
 
@@ -137,9 +136,9 @@ Depending on the selected Use case, you would need to provide up to five message
 
 </figure>
 
-Select all the Campaign attributes that apply to your Campaign and message content using the YES/NO toggle.
+Select all the campaign attributes that apply to your campaign and message content using the YES/NO toggle.
 
-Click Next to specify additional details of your Campaign.
+Click Next to specify additional details of your campaign.
 
 ### Handling keywords (Optional)
 
@@ -165,27 +164,27 @@ Your customers might reply with the word "HELP" or any custom HELP keyword to le
 
 </figure>
 
-### Adding phone numbers to your Campaign
+### Adding phone numbers to your campaign
 
-You can add up to five phone numbers to your Campaign, depending on the registration process selected. Choose the numbers you want to use as Sender IDs and click Next.
+You can add up to five phone numbers to your campaign, depending on the registration process selected. Choose the numbers you want to use as sender IDs and click Next.
 
 <figure>
 
 ![campaign](/img/campaign.jpg)
 
-<figcaption>Fig. 5 10DLCs for the Campaign</figcaption>
+<figcaption>Fig. 5 10DLCs for the campaign</figcaption>
 
 </figure>
 
 :::info[Important]
 
-Each phone number can be assigned to a single Campaign only. If the phone number is grayed out, you need to unassign it from the Campaign it is currently linked to.
+Each phone number can be assigned to a single campaign only. If the phone number is grayed out, you need to unassign it from the campaign it is currently linked to.
 
 :::
 
-### Summary and the Campaign registration
+### Summary and the campaign registration
 
-Review your Campaign details. In case of any errors click Back and update the necessary fields. Click Register to complete the wizard.
+Review your campaign details. In case of any errors click Back and update the necessary fields. Click Register to complete the wizard.
 
 <figure>
 
@@ -199,4 +198,4 @@ Review your Campaign details. In case of any errors click Back and update the ne
 Campaign registration and monthly fees for the first three months will be deducted from your account automatically.
 :::
 
-Standard Use case Campaigns are automatically approved and become Active. Special Use case Campaigns may require additional approval by mobile carriers before activation. Once the Campaign is Active, you can start messaging.
+Standard Use case campaigns are automatically approved and become Active. Special Use case campaigns may require additional approval by mobile carriers before activation. Once the campaign is Active, you can start messaging.
