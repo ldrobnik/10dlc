@@ -15,9 +15,9 @@ import Lead from "@site/src/components/Lead";
 
 10DLC stands for "10-digit long codes." They're US phone numbers that businesses use to send text messages.
 
-Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs look like regular local phone numbers (such as "(555) 123-4567") .
+Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs resemble local phone numbers (like "(555) 123-4567") .
 
-Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person (A2P) traffic.
+Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person traffic.
 
 To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
@@ -32,11 +32,6 @@ The Wavix platform allows you to register 10DLC brands and campaigns directly fr
 Always provide up-to-date and accurate details during the registration process. The information you enter might affect message throughput.
 
 :::
-
-This guide uses the following Wavix gateways:
-
-- Register your Brand
-- Register your campaign and outbound numbers (aka 10DLCs or Sender IDs)
 
 ## 10DLC brand registration
 
@@ -58,6 +53,8 @@ Mobile carriers automatically allocate message throughput based on the submitted
 :::
 
 ### Registering a brand
+
+- Register your Brand
 
 To register a brand you need to provide complete, accurate, and up-to-date information about your organization, including:
 
@@ -102,6 +99,8 @@ Wavix provides feedback to help you identify possible data inaccuracies.
 Before registering a 10DLC campaign, you need to have an active US local phone number on your account.
 
 ### Registering a campaign
+
+- Register your campaign and outbound numbers (aka 10DLCs or Sender IDs)
 
 Each 10DLC campaign should describe your specific use case, and the content of SMS and MMS actually sent.
 
