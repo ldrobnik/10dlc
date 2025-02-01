@@ -91,7 +91,7 @@ To register your brand through Wavix:
 6. Review the details you've entered on the brand registration summary page. Select **Back** to update any of the fields.
 7. If the information is correct, confirm a non-refundable brand registration fee and select **Submit**.
 
-### Brand registration status
+### Registration status
 
 After you submit your brand registration request, TCR checks against several databases and uses verification software to verify the accuracy of your information. They make sure that your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or Tax ID.
 
