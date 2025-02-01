@@ -93,14 +93,14 @@ To register your brand through Wavix:
 
 ### Brand registration status
 
-After you submit your brand registration request, TCR checks against several databases and uses verification software to verify the accuracy of your information. They confirm your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or Tax ID.
+After you submit your brand registration request, TCR checks against several databases and uses verification software to verify the accuracy of your information. They make sure that your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or Tax ID.
 
 Based on their findings, TCR assigns your brand one of the two statuses:
 
 - **Verified** — TCR successfully registered and and verified your brand. Now, [register your campaign](#10dlc-campaign-registration).
 - **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-a-brand).
 
-:::note
+:::tip
 Wavix provides feedback to help you identify possible inaccuracies in your data.
 :::
 
