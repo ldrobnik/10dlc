@@ -15,14 +15,14 @@ import Lead from "@site/src/components/Lead";
 
 10DLC stands for "10-digit long codes." They're phone numbers that businesses can use to send text messages in the US.
 
-Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs look like regular local phone numbers (like "(555) 123-4567") .
+Unlike short codes ("56789") or toll-free numbers ("1-800-555-1212"), 10DLCs look like regular local phone numbers ("(555) 123-4567") .
 
 Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person (A2P) traffic.
 
 To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
 :::note
-You don't need to register your brand or campaign to send messages using short codes or toll-free numbers.
+You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
 :::
 
 The Wavix platform allows you to register 10DLC brands and campaigns directly from the user interface.
@@ -33,7 +33,7 @@ Always provide complete, accurate, and up-to-date details during the registratio
 
 ## 10DLC brand registration
 
-Before you can send text messages using 10DLCs, you must verify your identity by registering your brand. Follow the steps in this section to register your brand in Wavix.
+Before you can send text messages using 10DLCs, you must verify your identity by registering your brand. Follow the steps in this section to register your 10DCL brand through Wavix.
 
 :::note
 Mobile carriers pre-approve each brand registration and automatically allocate message throughput based on the submitted brand details and message content.
@@ -93,11 +93,16 @@ To register your brand through Wavix:
 
 ### Brand registration status
 
-The brand registration status is based on the accuracy of the submitted information. The Campaign Registry (TCR) Administrator will locate and confirm the existence of the Company you submitted by checking against several databases and utilizing verification software. Correct legal company name and address, EIN or Tax ID are extremely important for obtaining a ‘Verified’ status.
+After you submit your brand registration request, TCR checks against several databases and uses verification software to verify the accuracy of your information. They confirm your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or Tax ID.
 
-If your brand can not be verified, you can resubmit the form after updating the brand details.
+Based on their findings, TCR assigns your brand one of the two statuses:
 
-Wavix provides feedback to help you identify possible data inaccuracies.
+- **Verified** — TCR successfully registered and and verified your brand. Now, [register your campaign](#10dlc-campaign-registration).
+- **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-a-brand).
+
+:::note
+Wavix provides feedback to help you identify possible inaccuracies in your data.
+:::
 
 ## 10DLC campaign registration
 
