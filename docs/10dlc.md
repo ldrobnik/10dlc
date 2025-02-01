@@ -13,11 +13,11 @@ import Lead from "@site/src/components/Lead";
 
 ## What is 10DLC?
 
-10DLC stands for "10-digit long codes." They're phone numbers that businesses use to send text messages in the US.
+10DLC stands for "10-digit long codes." They're phone numbers that businesses can use to send text messages in the US.
 
 Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs look like regular local phone numbers (like "(555) 123-4567") .
 
-Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person traffic.
+Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person (A2P) traffic.
 
 To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
@@ -28,7 +28,7 @@ You don't need to register your brand or campaign to send messages using short c
 The Wavix platform allows you to register 10DLC brands and campaigns directly from the user interface.
 
 :::warning
-Always provide up-to-date and accurate details during the registration process. The information you enter might affect message throughput.
+Always provide complete, accurate, and up-to-date details during the registration. The information you enter may affect message throughput.
 :::
 
 ## 10DLC brand registration
@@ -45,43 +45,51 @@ Depending on the legal status of your business, you can choose either **quick** 
 
 #### Quick registration
 
-You can only choose quick registration if you're a sole proprietor without a tax ID, such as [EIN](https://www.irs.gov/businesses/employer-identification-number). This process requires you to provide fewer details than standard registration but limits you to a single 10DLC phone number with low messaging throughput.
+You can only choose quick registration if you're a sole proprietor without an [EIN](https://www.irs.gov/businesses/employer-identification-number) (or tax ID for companies outside the US). This process requires you to provide fewer details than standard registration but limits you to a single 10DLC phone number with low messaging throughput.
 
 #### Standard registration
 
-Standard registration requires detailed company information but offers higher throughput. You can have up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
+If you're a business with an EIN or tax ID (such an LLC or corporation), you must choose standard registration. This process requires detailed company information but offers higher throughput. You can have up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
 
 ### Registering a brand
 
-- Register your Brand
+To register your brand through Wavix:
 
-To register a brand you need to provide complete, accurate, and up-to-date information about your organization, including:
+1. Go to **Register your Brand**.
+2. On the **Registration type** page, choose either **Quick** or **Standard** registration depending on your business type. Select **Next**.
+3. On the **Brand details** page, enter your **Company details**:
+   - **Brand name**
+   - **Website** (optional for quick registration)
+   - **Company legal name**
+   - **Business industry or vertical**
+   - **Country of registration**
+   - **EIN or Tax ID**
+   - **Company type** (if applicable)
+   - **Stock exchange** (for publicly traded companies)
+   - **Stock symbol** (for publicly traded companies)
+4. Enter **Contact details** of the business owner (quick registration) or the person filing the brand registration request (standard registration):
+   - **First name**
+   - **Last name**
+   - **Support phone number**
+   - **Support email**
+   - **Street address**
+   - **City**
+   - **State or province**
+   - **Country**
+   - **Zipcode or postal code**
+     :::info
+     The company’s business address must match the legal address in the registration documents.
+     :::
+5. Select **Next**.
+    <figure>
 
-- Brand name or DBA name
-- The website address, optional for Quick brand registration
-- Company legal name
-- Industry or vertical the business operates in
-- Country of registration
-- EIN for US companies and Tax ID for companies incorporated in other countries, if applicable
-- Company type, if applicable
-- Stock exchange, for publicly traded companies only
-- Stock symbol, for publicly traded companies only
-- Contact details
-- Company support email address and phone number
-- The company’s business address must exactly match the legal address in the registration documents
+   ![registration](/img/registration.jpg)
 
-If you’ve chosen **Quick** registration, you have to provide the contact details of the business owner. For **Standard** registration, contact details must contain the first and last name of the person filing the brand registration request.
+    <figcaption>Entering brand details for registration</figcaption>
+    </figure>
 
-<figure>
-
-![registration](/img/registration.jpg)
-
-<figcaption>Fig. 1 Brand registration</figcaption>
-</figure>
-
-After providing the information, click Next to view the brand registration summary page and check the provided details. If you need to update any of the fields, click Back to go to the previous step.
-
-If the information is correct, confirm a non-refundable brand registration fee and click Submit.
+6. Review the details you've entered on the brand registration summary page. Select **Back** to update any of the fields.
+7. If the information is correct, confirm a non-refundable brand registration fee and select **Submit**.
 
 ### Brand registration status
 
