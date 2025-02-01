@@ -8,49 +8,48 @@ import Lead from "@site/src/components/Lead";
 # Registering 10DLC brands and campaigns
 
 <Lead>
-  This guide explains how to register a brand and campaign to send messages using 10-digit long codes (10DLCs)
+  This guide explains how to register your brand and campaign to send messages using 10-digit long codes (10DLCs)
 </Lead>
 
 ## What is 10DLC?
 
-10DLC stands for "10-digit long codes." They're US phone numbers that businesses use to send text messages.
+10DLC stands for "10-digit long codes." They're phone numbers that businesses use to send text messages in the US.
 
-Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs resemble local phone numbers (like "(555) 123-4567") .
+Unlike short codes (like "56789") or toll-free numbers (like "1-800-555-1212"), 10DLCs look like regular local phone numbers (like "(555) 123-4567") .
 
 Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person traffic.
 
 To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
 :::note
-You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
+You don't need to register your brand or campaign to send messages using short codes or toll-free numbers.
 :::
 
 The Wavix platform allows you to register 10DLC brands and campaigns directly from the user interface.
 
 :::warning
-
 Always provide up-to-date and accurate details during the registration process. The information you enter might affect message throughput.
-
 :::
 
 ## 10DLC brand registration
 
-Keep in mind that:
+Before you can send text messages using 10DLCs, you must verify your identity by registering your brand. Follow the steps in this section to register your brand in Wavix.
 
-- Each brand registration must be pre-approved by mobile carriers
-- Actual message throughput is determined by carriers after the registration is approved and depends on the provided brand details and actual message content
+:::note
+Mobile carriers pre-approve each brand registration and automatically allocate message throughput based on the submitted brand details and message content.
+:::
 
 ### Registration types
 
-Depending on the legal status of your business, you can choose either **Quick** or **Standard** brand registration.
+Depending on the legal status of your business, you can choose either **quick** or **standard** brand registration.
 
-**Quick** registration is restricted to sole proprietors without an EIN or Tax ID and requires fewer brand details to be provided during the registration process. Brands selecting the Quick registration are limited to a single 10DLC phone number and have low messaging throughput.
+#### Quick registration
 
-**Standard** registration requires detailed company information and offers higher throughput. Brands can have up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
+You can only choose quick registration if you're a sole proprietor without a tax ID, such as [EIN](https://www.irs.gov/businesses/employer-identification-number). This process requires you to provide fewer details than standard registration but limits you to a single 10DLC phone number with low messaging throughput.
 
-:::note
-Mobile carriers automatically allocate message throughput based on the submitted brand details and message content.
-:::
+#### Standard registration
+
+Standard registration requires detailed company information but offers higher throughput. You can have up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
 
 ### Registering a brand
 
