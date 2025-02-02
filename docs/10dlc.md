@@ -153,29 +153,28 @@ To register your brand through Wavix:
 Your campaign description, use case, and message samples must be as exact as possible. Mobile carriers may check if the provided details match the content of the messages you send.
 :::
 
-### Managing keywords (optional)
+### Specifying keywords (optional)
 
-Wavix supports all standard opt-in and opt-out keywords by default. Please note that all additional keywords are case-insensitive.
+Wavix supports all standard opt-in (START and UNSTOP) and opt-out (STOP, QUIT, and USUBSCRIBE) keywords by default.
 
-#### Handling STOP keywords
+To specify additional keywords:
 
-Add custom, comma-separated opt-out keywords if needed. US mobile carriers require you to provide a response (aka acknowledgment) when a person sends any STOP keyword. Enter the acknowledgement message your customers will receive if they opted out.
+1. On the **Additional keywords** page, provide comma-separated lists of **Opt-in**, **Opt-out**, and **Help** keywords.
+   :::info[Important]
+   The keywords you enter are case-sensitive.
+   :::
+2. Enter the message your customers will receive in response to each keyword type.
+   :::info[Important]
+   US mobile carriers require you to provide a response (acknowledgment) when someone sends any opt-in or opt-out keywords.
+   :::
+3. Select **Next**.
+   <figure>
 
-#### Handling START keywords
+   ![keywords](/img/keywords.jpg)
 
-Add custom, comma-separated opt-in keywords if needed. US mobile carriers require you to provide a response when a person sends any START keyword. Enter the acknowledgement message your customers will receive if they opted in.
+   <figcaption>Specifying additional opt-in, opt-out, and help keywords</figcaption>
 
-#### Handling HELP keywords
-
-Your customers might reply with the word "HELP" or any custom HELP keyword to learn more about the messages that they're receiving from you. List all comma-separated HELP keywords and specify the message to be sent back when any of the HELP keywords are received.
-
-<figure>
-
-![keywords](/img/keywords.jpg)
-
-<figcaption>Fig. 4 Additional opt-in, opt-out, and help keywords</figcaption>
-
-</figure>
+   </figure>
 
 ### Adding phone numbers to your campaign
 
@@ -195,7 +194,7 @@ Each phone number can be assigned to a single campaign only. If the phone number
 
 :::
 
-### Summary and the campaign registration
+### Reviewing details and registering your campaign
 
 Review your campaign details. In case of any errors click Back and update the necessary fields. Click Register to complete the wizard.
 
