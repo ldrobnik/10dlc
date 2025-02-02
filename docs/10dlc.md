@@ -19,7 +19,7 @@ Unlike short codes ("56789") or toll-free numbers ("1-800-555-1212"), 10DLCs loo
 
 Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person (A2P) traffic.
 
-To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#10dlc-brand-registration) and [campaign](#10dlc-campaign-registration) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
+To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#registering-a-10dlc-bran and [campaign](#registering-a-10dlc-campaign) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
 :::note
 You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
@@ -31,7 +31,7 @@ The Wavix platform allows you to register 10DLC brands and campaigns directly fr
 Always provide complete, accurate, and up-to-date details during the registration. The information you enter may affect message throughput.
 :::
 
-## 10DLC brand registration
+## Registering a 10DLC brand
 
 Before you can send text messages using 10DLCs, you must verify your identity by registering your brand. Follow the steps in this section to register your 10DCL brand through Wavix.
 
@@ -97,14 +97,14 @@ After you submit your brand registration request, TCR checks against several dat
 
 Based on its findings, TCR assigns your brand one of the two statuses:
 
-- **Verified** — TCR successfully registered and and verified your brand. Now, [register your campaign](#10dlc-campaign-registration).
+- **Verified** — TCR successfully registered and and verified your brand. Now, [register your campaign](#registering-a-10dlc-campaign).
 - **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-a-brand).
 
 :::tip
 Wavix provides feedback to help you identify possible inaccuracies in your data.
 :::
 
-## 10DLC campaign registration
+## Registering a 10DLC campaign
 
 ### Before you begin
 
