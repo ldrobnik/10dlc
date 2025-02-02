@@ -78,7 +78,7 @@ To register your brand through Wavix:
    - **State or province**
    - **Country**
    - **Zipcode or postal code**
-     :::info
+     :::info[Important]
      The company’s business address must match the legal address in the registration documents.
      :::
 5. Select **Next**.
@@ -153,13 +153,13 @@ To register your brand through Wavix:
 Your campaign description, use case, and message samples must be as exact as possible. Mobile carriers may check if the provided details match the content of the messages you send.
 :::
 
-### Specifying keywords (optional)
+### Adding keywords (optional)
 
 Wavix supports all standard opt-in (START and UNSTOP) and opt-out (STOP, QUIT, and USUBSCRIBE) keywords by default.
 
 To specify additional keywords:
 
-1. On the **Additional keywords** page, provide comma-separated lists of **Opt-in**, **Opt-out**, and **Help** keywords.
+1. On the **Additional keywords** page, provide comma-separated lists of **Opt-in**, **Opt-out**, and **Help** keywords. For example, `SUBSCRIBE,YES,ENROLL`.
    :::info[Important]
    The keywords you enter are case-sensitive.
    :::
@@ -178,36 +178,36 @@ To specify additional keywords:
 
 ### Adding phone numbers to your campaign
 
-You can add up to five phone numbers to your campaign, depending on the registration process selected. Choose the numbers you want to use as sender IDs and click Next.
+You can add up to five phone numbers to each campaign, depending on the registration process selected.
+
+On the **Numbers** page, select the 10DLCs you want to use as sender IDs and select **Next**.
 
 <figure>
-
 ![campaign](/img/campaign.jpg)
 
 <figcaption>Fig. 5 10DLCs for the campaign</figcaption>
-
 </figure>
 
 :::info[Important]
-
-Each phone number can be assigned to a single campaign only. If the phone number is grayed out, you need to unassign it from the campaign it is currently linked to.
-
+You can assign each phone number only to one campaign. If a phone number is grayed out, it means it's assigned to a different campaign. To use it, first unassign it from the other campaign.
 :::
 
 ### Reviewing details and registering your campaign
 
-Review your campaign details. In case of any errors click Back and update the necessary fields. Click Register to complete the wizard.
+The **Summary** page allows you to review your campaign details. Select **Back** to correct any errors. Click **Register** to complete your registration.
 
 <figure>
 
 ![summary](/img/summary.jpg)
 
-<figcaption>Fig. 6 Campaign summary</figcaption>
+<figcaption>Reviewing campaign details</figcaption>
 
 </figure>
 
 :::note
-Campaign registration and monthly fees for the first three months will be deducted from your account automatically.
+We'll automatically deduct campaign registration and monthly fees for the first three months from your account.
 :::
 
-Standard Use case campaigns are automatically approved and become Active. Special Use case campaigns may require additional approval by mobile carriers before activation. Once the campaign is Active, you can start messaging.
+Standard use case campaigns are automatically approved and become active. Special use case campaigns may require additional approval by mobile carriers before activation.
+
+Once the campaign is active, you can start messaging.
