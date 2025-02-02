@@ -101,7 +101,7 @@ Here are the possible statuses of your brand registration:
 - **Pending** — TCR has not yet made a decision regarding your registration.
 - **Verified** — TCR has verified your brand. Now, [register your campaign](#registering-a-10dlc-campaign).
 - **Vetted_Verified** — TCR has verified your brand after requesting external vetting. You are free to [register your campaign](#registering-a-10dlc-campaign).
-- **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-a-brand).
+- **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-your-brand).
 
 :::tip
 Wavix provides feedback to help you identify possible inaccuracies in your data.
