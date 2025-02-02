@@ -33,10 +33,11 @@ Always provide complete, accurate, and up-to-date details during the registratio
 
 ## Registering a 10DLC brand
 
-Before you can send text messages using 10DLCs, you must verify your identity by registering your brand. Follow the steps in this section to register your 10DCL brand through Wavix.
+Before you can send text messages using 10DLCs, you must verify your identity by registering your brand with TCR.
+Follow the steps in this section to register your 10DCL brand through Wavix.
 
 :::note
-Mobile carriers pre-approve each brand registration and automatically allocate message throughput based on the submitted brand details and message content.
+Mobile carriers approve each brand registration and base message throughput on the submitted brand details.
 :::
 
 ### Registration types
@@ -93,7 +94,7 @@ To register your brand through Wavix:
 
 ### Registration status
 
-After you submit your brand registration request, TCR checks against several databases and uses verification software to confirm the accuracy of your information. They make sure that your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or Tax ID.
+After you submit your brand registration request, TCR checks against several databases and uses verification software to confirm the accuracy of your information. They make sure that your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or tax ID.
 
 Here's a list of possible statuses of your brand registration:
 
@@ -108,52 +109,51 @@ Wavix provides feedback to help you identify possible inaccuracies in your data.
 
 ## Registering a 10DLC campaign
 
-### Before you begin
+Once you've [registered your brand](#registering-a-10dlc-brand), you must register your campaign to tell TCR how you're going to use 10DLC messaging. Each 10DLC campaign should describe your specific use case and the actual content of your SMS and MMS messages.
 
-Before registering a 10DLC campaign, you need to have an active US local phone number on your account.
-
-### Registering a campaign
-
-- Register your campaign and outbound numbers (aka 10DLCs or Sender IDs)
-
-Each 10DLC campaign should describe your specific use case, and the content of SMS and MMS actually sent.
-
-To register a new 10DLC campaign, you need to provide the following information:
-
-- A campaign name that will be used for reference purposes
-- A detailed campaign description
-- Use case that describes your messaging scenario
-- Exact examples of messages that will be sent
+Follow the steps in this section to register your 10DCL brand through Wavix.
 
 :::info[Important]
+Before registering a 10DLC campaign:
 
-The campaign description, Use case, and message samples need to be as exact as possible. Mobile carriers may check them to confirm if the provided details actually apply to the content of messages being sent.
+- Your brand must be verified.
+- You need to have an active US local phone number on your account.
+  :::
 
+### Entering campaign details
+
+To register your brand through Wavix:
+
+1. Go to **Register your campaign and outbound numbers (aka 10DLCs or Sender IDs)**.
+2. On the **Campaign details** page,enter your **Campaign name** for reference purposes and a detailed **Campaign description**.
+3. Under **Select Use case**, choose a use case that best describes your messaging scenario:
+   - **Standard** use cases are available for all registered brands and don't need additional approval from mobile carriers.
+   - **Special** use cases are sensitive or critical in nature and may require additional vetting or approval from mobile carriers.
+     :::warning
+     Once you've created a campaign, you cannot change your use case.
+     :::
+4. Select **Next**.
+   <figure>
+   ![details](/img/details.jpg)
+   <figcaption>Entering campaign details and choosing a use case</figcaption>
+   </figure>
+5. On the **Campaign content** page, provide up to five message examples. The required number of samples depends on the selected use case.
+   :::tip
+   Provide exact samples without using placeholders or variables in the message body.
+   :::
+6. Select all the **Campaign attributes** that apply to your campaign and message content using the **YES/NO** toggles.
+7. Select **Next**.
+   <figure>
+   ![samples](/img/samples.jpg)
+
+    <figcaption>Entering message and selecting campaign attributes</figcaption>
+   </figure>
+
+:::info[Important]
+Your campaign description, use case, and message samples must be as exact as possible. Mobile carriers may check if the provided details match the content of the messages you send.
 :::
 
-<figure>
-
-![details](/img/details.jpg)
-
-<figcaption>Fig. 2 Campaign details and use case</figcaption>
-
-</figure>
-
-Depending on the selected Use case, you would need to provide up to five message examples. We recommend you provide exact samples without using placeholders or variables in the message body.
-
-<figure>
-
-![samples](/img/samples.jpg)
-
-<figcaption>Fig. 3 Message samples</figcaption>
-
-</figure>
-
-Select all the campaign attributes that apply to your campaign and message content using the YES/NO toggle.
-
-Click Next to specify additional details of your campaign.
-
-### Handling keywords (Optional)
+### Managing keywords (optional)
 
 Wavix supports all standard opt-in and opt-out keywords by default. Please note that all additional keywords are case-insensitive.
 
