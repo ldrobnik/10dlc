@@ -97,7 +97,9 @@ After you submit your brand registration request, TCR checks against several dat
 
 Here's a list of possible statuses of your brand registration:
 
-- **Verified** — TCR successfully registered and and verified your brand. Now, [register your campaign](#registering-a-10dlc-campaign).
+- **Pending** — TCR has not yet made a decision regarding your registration.
+- **Verified** — TCR has verified your brand. Now, [register your campaign](#registering-a-10dlc-campaign).
+- **Vetted_Verified** — TCR has verified your brand after requesting external vetting. You are free to [register your campaign](#registering-a-10dlc-campaign).
 - **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-a-brand).
 
 :::tip
