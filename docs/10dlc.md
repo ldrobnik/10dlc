@@ -177,7 +177,7 @@ To specify additional keywords:
 
    </figure>
 
-### Adding phone numbers to your campaign
+### Adding phone numbers
 
 You can add up to five phone numbers to each campaign, depending on the registration process selected.
 
