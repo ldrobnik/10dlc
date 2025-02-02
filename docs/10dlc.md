@@ -193,7 +193,7 @@ On the **Numbers** page, choose the 10DLCs you want to use as sender IDs and sel
 You can assign each phone number only to one campaign. If a phone number is grayed out, it means it's assigned to a different campaign. To use it, first unassign it from the other campaign.
 :::
 
-### Reviewing details and registering your campaign
+### Reviewing and registering your campaign
 
 The **Summary** page allows you to review your campaign details. Select **Back** to correct any errors. Select **Register** to complete your registration.
 
