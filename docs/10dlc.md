@@ -13,13 +13,13 @@ import Lead from "@site/src/components/Lead";
 
 ## What is 10DLC?
 
-10DLC stands for "10-digit long codes." They're phone numbers that businesses can use to send text messages in the US.
+10DLC stands for "10-digit long codes." They're phone numbers that businesses can use to send automated text messages in the US.
 
-Unlike short codes ("56789") or toll-free numbers ("1-800-555-1212"), 10DLCs look like regular local phone numbers ("(555) 123-4567") .
+Businesses prefer 10DLCs over short codes ("56789") or toll-free numbers ("1-800-555-1212") because they look like regular local phone numbers ("(555) 123-4567").
 
-Mobile carriers in the US consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be application-to-person (A2P) traffic.
+Mobile carriers in the US want to make sure application-to-person (A2P) messaging isn't used for spamming or other harmful purposes. They consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be A2P traffic.
 
-To use 10DLCs as sender IDs for application-to-person messaging, you must register your [brand](#registering-a-10dlc-bran and [campaign](#registering-a-10dlc-campaign) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
+That's why before you can use 10DLCs as sender IDs for A2P messaging, you must register your [brand](#registering-a-10dlc-brand) and [campaign](#registering-a-10dlc-campaign) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
 
 :::note
 You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
@@ -95,7 +95,7 @@ To register your brand through Wavix:
 
 After you submit your brand registration request, TCR checks against several databases and uses verification software to confirm the accuracy of your information. They make sure that your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or Tax ID.
 
-Based on its findings, TCR assigns your brand one of the two statuses:
+Here's a list of possible statuses of your brand registration:
 
 - **Verified** — TCR successfully registered and and verified your brand. Now, [register your campaign](#registering-a-10dlc-campaign).
 - **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-a-brand).
