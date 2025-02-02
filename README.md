@@ -4,7 +4,7 @@ A revised version of the [_Wavix 10DLC guide_](https://www.wavix.com/resources/g
 
 Some notes:
 
-- I revised the title to make it more informative.
+- I changed the title to make it more informative.
 - I restructured the article into three top-level sections:
   - _What is 10DLC?_
   - _Registering a 10DLC brand_
