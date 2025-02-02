@@ -52,7 +52,7 @@ You can only choose quick registration if you're a sole proprietor without an [E
 
 If you're a business with an EIN or tax ID (such as an LLC or corporation), you must choose standard registration. This process requires detailed company information but offers higher throughput. You can have up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
 
-### Registering a brand
+### Registering your brand
 
 To register your brand through Wavix:
 
