@@ -15,11 +15,11 @@ import Lead from "@site/src/components/Lead";
 
 10DLC stands for "10-digit long codes." They're phone numbers that businesses can use to send text messages in the US.
 
-Businesses prefer 10DLCs over short codes ("56789") or toll-free numbers ("1-800-555-1212") because they look like regular local phone numbers ("(555) 123-4567").
+Businesses often prefer 10DLCs over short codes ("456789") or toll-free numbers ("800-555-1234") because they look like regular local phone numbers ("(740) 555-4567").
 
-Mobile carriers in the US want to make sure application-to-person (A2P) messaging isn't used for spamming or other harmful purposes. They consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be A2P traffic.
+Mobile carriers in the US want to ensure application-to-person (A2P) messaging isn't used for spamming or other harmful purposes. They consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be A2P traffic.
 
-Before using 10DLCs as sender IDs for A2P messaging, you must register your [brand](#registering-a-10dlc-brand) and [campaign](#registering-a-10dlc-campaign) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/).
+Before using 10DLCs as sender IDs for A2P messaging, you must register your [brand](#registering-a-10dlc-brand) and [campaign](#registering-a-10dlc-campaign) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/), the central hub for registering A2P messaging campaigns in North America.
 
 :::note
 You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
@@ -34,15 +34,15 @@ Always provide complete, accurate, and up-to-date details during the registratio
 ## Registering a 10DLC brand
 
 Before you can send text messages using 10DLCs, you must verify your identity by registering your brand with TCR.
-Follow the steps in this section to register your 10DCL brand through Wavix.
+Follow the steps in this section to register your 10DLC brand through Wavix.
 
-:::note
+:::info[Important]
 Mobile carriers approve each brand registration and determine message throughput based on the submitted brand details.
 :::
 
 ### Registration types
 
-Depending on the legal status of your business, you can choose either **quick** or **standard** brand registration.
+Depending on the legal status of your business, you can choose either _quick_ or _standard_ brand registration.
 
 #### Quick registration
 
@@ -78,7 +78,7 @@ To register your brand through Wavix:
    - **State or province**
    - **Country**
    - **Zipcode or postal code**
-     :::info[Important]
+     :::warning
      The company’s business address must match the legal address in the registration documents.
      :::
 5. Select **Next**.
@@ -89,8 +89,7 @@ To register your brand through Wavix:
 <figcaption>Entering brand details for registration</figcaption>
 </figure>
 
-6. On the summary page, review the brand registration details you've entered.
-7. Select **Back** to correct any errors. If the information is correct, confirm a non-refundable brand registration fee and select **Submit**.
+6. On the summary page, review the brand registration details. Select **Back** to fix any errors. If the information is correct, confirm a non-refundable brand registration fee and select **Submit**.
 
 ### Registration status
 
@@ -109,9 +108,9 @@ Wavix provides feedback to help you identify possible inaccuracies in your data.
 
 ## Registering a 10DLC campaign
 
-Once you've [registered your brand](#registering-a-10dlc-brand), you must register your campaign to tell TCR how you're going to use 10DLC messaging. Each 10DLC campaign should describe your specific use case and the actual content of your SMS or MMS messages.
+Once you've [registered your brand](#registering-a-10dlc-brand), you must register your campaign to tell TCR how you're going to use 10DLC messaging. Each 10DLC campaign should describe your specific use case and specify the content of your SMS or MMS messages.
 
-Follow the steps in this section to register your 10DCL brand through Wavix.
+Follow the steps in this section to register your 10DLC brand through Wavix.
 
 :::info[Important]
 Before registering a 10DLC campaign:
@@ -165,7 +164,7 @@ To specify additional keywords:
 
 1. On the **Additional keywords** page, provide comma-separated lists of **Opt-in**, **Opt-out**, and **Help** keywords. For example, `SUBSCRIBE,YES,ENROLL`.
    :::info[Important]
-   Additional keywords are case-sensitive.
+   The keywords you enter are case-sensitive.
    :::
 2. Enter the message your customers will receive in response to each keyword type. US mobile carriers require you to provide a response (acknowledgment) when someone sends any opt-in or opt-out keywords.
 3. Select **Next**.
@@ -186,16 +185,16 @@ On the **Numbers** page, choose the 10DLCs you want to use as sender IDs and sel
 <figure>
 ![campaign](/img/campaign.jpg)
 
-<figcaption>Fig. 5 10DLCs for the campaign</figcaption>
+<figcaption>Adding phone numbers</figcaption>
 </figure>
 
 :::note
 You can assign each phone number only to one campaign. If a phone number is grayed out, it means it's assigned to a different campaign. To use it, first unassign it from the other campaign.
 :::
 
-### Reviewing and registering your campaign
+### Reviewing campaign details
 
-The **Summary** page allows you to review your campaign details. Select **Back** to correct any errors. Select **Register** to complete your registration.
+The **Summary** page allows you to review your campaign details. Select **Back** to fix any errors. If the information is correct, select **Register** to complete your registration.
 
 <figure>
 
