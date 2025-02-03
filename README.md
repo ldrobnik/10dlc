@@ -1,6 +1,6 @@
 # Registering 10DLC brands and campaigns
 
-A revised version of the [_Wavix 10DLC guide_](https://www.wavix.com/resources/guides/10dlc).
+A revised version of the [Wavix 10DLC guide](https://www.wavix.com/resources/guides/10dlc).
 
 Some notes:
 
@@ -9,7 +9,7 @@ Some notes:
   - _What is 10DLC?_
   - _Registering a 10DLC brand_
   - _Registering a 10DLC campaign_
-- I followed the [_Microsoft Writing Style Guide_](https://learn.microsoft.com/en-us/style-guide/). In keeping with the guide, I used lowercase for brands, campaigns, sender IDs, etc.
+- I followed the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/). In keeping with the guide, I used lowercase for brands, campaigns, sender IDs, etc.
 - I used the following types of info boxes:
   - Note
   - Tip
