@@ -62,14 +62,14 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        // title: "Wavix 10DLC guide",
+        // title: "Registering 10DLC brands and campaigns",
 
         items: [
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Wavix 10DLC guide",
+            label: "Registering 10DLC brands and campaigns",
           },
         ],
       },

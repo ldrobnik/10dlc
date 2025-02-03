@@ -17,15 +17,15 @@ import Lead from "@site/src/components/Lead";
 
 Businesses often prefer 10DLCs over short codes ("456789") or toll-free numbers ("800-555-1234") because they look like regular local phone numbers ("(740) 555-4567").
 
-Mobile carriers in the US want to ensure application-to-person (A2P) messaging isn't used for spamming or other harmful purposes. They consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be A2P traffic.
+Mobile carriers in the US want to ensure that application-to-person (A2P) messaging isn't used for spamming or other harmful purposes. They consider all messages (SMS and MMS) sent using a messaging provider like Wavix to be A2P traffic.
 
 Before using 10DLCs as sender IDs for A2P messaging, you must register your [brand](#registering-a-10dlc-brand) and [campaign](#registering-a-10dlc-campaign) with [the Campaign Registry (TCR)](https://www.campaignregistry.com/), the central hub for registering A2P messaging campaigns in North America.
+
+The Wavix platform allows you to register 10DLC brands and campaigns directly from the user interface.
 
 :::note
 You don't need to register a brand or campaign to send messages using short codes or toll-free numbers.
 :::
-
-The Wavix platform allows you to register 10DLC brands and campaigns directly from the user interface.
 
 :::warning
 Always provide complete, accurate, and up-to-date details during the registration. The information you enter may affect message throughput.
@@ -34,6 +34,7 @@ Always provide complete, accurate, and up-to-date details during the registratio
 ## Registering a 10DLC brand
 
 Before you can send text messages using 10DLCs, you must verify your identity by registering your brand with TCR.
+
 Follow the steps in this section to register your 10DLC brand through Wavix.
 
 :::info[Important]
@@ -79,25 +80,23 @@ To register your brand through Wavix:
    - **Country**
    - **Zipcode or postal code**
      :::warning
-     The company’s business address must match the legal address in the registration documents.
+     The company's business address must match the legal address in the registration documents.
      :::
 5. Select **Next**.
 <figure>
-
-![registration](/img/registration.jpg)
-
+![Screenshot of the page for entering brand registration details](/img/registration.jpg)
 <figcaption>Entering brand details for registration</figcaption>
 </figure>
 
-6. On the summary page, review the brand registration details. Select **Back** to fix any errors. If the information is correct, confirm a non-refundable brand registration fee and select **Submit**.
+6. On the summary page, review your brand details. Select **Back** to fix any errors. If the information is correct, confirm a non-refundable brand registration fee and select **Submit**.
 
 ### Registration status
 
-After you submit your brand registration request, TCR checks against several databases and uses verification software to confirm the accuracy of your information. They make sure that your company exists and its records match the details you provided, paying special attention to your business' legal name, address, and EIN or tax ID.
+After you submit your brand registration request, TCR checks against several databases and uses verification software to confirm the accuracy of your information. They make sure that your company exists, and that its records match the details you provided, paying special attention to your business's legal name, address, and EIN or tax ID.
 
-Here are the possible statuses of your brand registration:
+Your brand registration can have one of the following statuses:
 
-- **Pending** — TCR has not yet made a decision regarding your registration.
+- **Pending** — TCR has not yet made a decision regarding your brand registration.
 - **Verified** — TCR has verified your brand. Now, [register your campaign](#registering-a-10dlc-campaign).
 - **Vetted_Verified** — TCR has verified your brand after requesting external vetting. You are free to [register your campaign](#registering-a-10dlc-campaign).
 - **Unverified** — TCR couldn't verify your brand due to missing or incorrect information. Amend your details and [resubmit the registration](#registering-your-brand).
@@ -108,7 +107,7 @@ Wavix provides feedback to help you identify possible inaccuracies in your data.
 
 ## Registering a 10DLC campaign
 
-Once you've [registered your brand](#registering-a-10dlc-brand), you must register your campaign to tell TCR how you're going to use 10DLC messaging. Each 10DLC campaign should describe your specific use case and specify the content of your SMS or MMS messages.
+Once you've [registered your brand](#registering-a-10dlc-brand), you must register your campaign to tell TCR how you're going to use 10DLC messaging. Each 10DLC campaign should describe your specific use case and specify the content of your messages.
 
 Follow the steps in this section to register your 10DLC brand through Wavix.
 
@@ -129,30 +128,29 @@ To register your brand through Wavix:
    - **Standard** use cases are available for all registered brands and don't need additional approval from mobile carriers.
    - **Special** use cases are sensitive or critical in nature and may require additional vetting or approval from mobile carriers.
      :::warning
-     Once you've created a campaign, you cannot change your use case.
+     Once you've created a campaign, you cannot change its use case.
      :::
 4. Select **Next**.
 <figure>
-![details](/img/details.jpg)
+![Screenshot of the page for entering campaign details and choosing a use case](/img/details.jpg)
 <figcaption>Entering campaign details and choosing a use case</figcaption>
 </figure>
 :::info[Important]
-Your campaign description, use case, and message samples must be as exact as possible. Mobile carriers may check if the provided details match the content of the messages you send.
+Your campaign description, use case, and message samples must be as exact as possible. Mobile carriers may check if the details you provided match the content of your messages.
 :::
 
 ### Entering campaign content
 
 To specify your campaign content:
 
-1. On the **Campaign content** page, provide up to five message examples, depending on the selected use case.
+1. On the **Campaign content** page, provide up to five **Message samples**, depending on the selected use case.
    :::tip
    Provide exact samples without using placeholders or variables in the message body.
    :::
-2. Select all the **Campaign attributes** that apply to your campaign and message content using the **YES/NO** toggles.
+2. Select all **Campaign attributes** that apply to your campaign and message content using the **YES/NO** toggles.
 3. Select **Next**.
 <figure>
-![samples](/img/samples.jpg)
-
+![Screenshot of the page for entering message samples and selecting campaign attributes](/img/samples.jpg)
 <figcaption>Entering message samples and selecting campaign attributes</figcaption>
 </figure>
 
@@ -169,9 +167,7 @@ To specify additional keywords:
 2. Enter the message your customers will receive in response to each keyword type. US mobile carriers require you to provide a response (acknowledgment) when someone sends any opt-in or opt-out keywords.
 3. Select **Next**.
    <figure>
-
-   ![keywords](/img/keywords.jpg)
-
+   ![Screenshot of the page for specifying additional opt-in, opt-out, and help keywords](/img/keywords.jpg)
    <figcaption>Specifying additional opt-in, opt-out, and help keywords</figcaption>
 
    </figure>
@@ -183,8 +179,7 @@ You can add up to five phone numbers to each campaign, depending on the registra
 On the **Numbers** page, choose the 10DLCs you want to use as sender IDs and select **Next**.
 
 <figure>
-![campaign](/img/campaign.jpg)
-
+![Screenshot of the page for adding phone numbers](/img/campaign.jpg)
 <figcaption>Adding phone numbers</figcaption>
 </figure>
 
@@ -194,14 +189,11 @@ You can assign each phone number only to one campaign. If a phone number is gray
 
 ### Reviewing campaign details
 
-The **Summary** page allows you to review your campaign details. Select **Back** to fix any errors. If the information is correct, select **Register** to complete your registration.
+The **Summary** page allows you to review your campaign details. Select **Back** to fix any errors. If the information is correct, select **Confirm** to complete your registration.
 
 <figure>
-
-![summary](/img/summary.jpg)
-
+![Screenshot of the summary page](/img/summary.jpg)
 <figcaption>Reviewing campaign details</figcaption>
-
 </figure>
 
 :::note
