@@ -16,5 +16,6 @@ Some notes:
   - Important
   - Warning
 - I added external links to explain some terms.
+- I used numbered lists for procedures.
 - The procedures for registering brands and campaigns could be expanded. For example, the initial steps of each process are unclear. Normally, I would test this in the platform or ask a relevant stakeholder.
 - I fact-checked the registration processes against [this guide](https://www.campaignregistry.com/Assets%2FTCR-CSP-User-Manual_Doc_V6.pdf) by TCR.
