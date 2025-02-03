@@ -28,7 +28,7 @@ You don't need to register a brand or campaign to send messages using short code
 :::
 
 :::warning
-Always provide complete, accurate, and up-to-date details during the registration. The information you enter may affect message throughput.
+Always provide complete, accurate, and up-to-date details when registering your brand and campaign. The information you enter may affect message throughput.
 :::
 
 ## Registering a 10DLC brand
@@ -47,11 +47,11 @@ Depending on the legal status of your business, you can choose either _quick_ or
 
 #### Quick registration
 
-You can only choose quick registration if you're a sole proprietor without an [EIN](https://www.irs.gov/businesses/employer-identification-number) (or tax ID for companies outside the US). This process requires you to provide fewer details than standard registration but limits you to a single 10DLC phone number with low messaging throughput.
+You can only choose quick registration if you're a sole proprietor without an [EIN](https://www.irs.gov/businesses/employer-identification-number) (or tax ID for companies outside the US). This process requires you to provide fewer details than standard registration but limits you to a single 10DLC phone number with low message throughput.
 
 #### Standard registration
 
-If you're a business with an EIN or tax ID (such as an LLC or corporation), you must choose standard registration. This process requires detailed company information but offers higher throughput. You can have up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
+If you're a business with an EIN or tax ID (such as an LLC or corporation), you must choose standard registration. This process requires detailed company information but offers higher throughput. You can create up to fifty 10DLC campaigns, with up to forty-five 10DLC phone numbers per campaign.
 
 ### Registering your brand
 
@@ -126,7 +126,7 @@ To register your brand through Wavix:
 2. On the **Campaign details** page, enter your **Campaign name** for reference purposes and a detailed **Campaign description**.
 3. Under **Select Use case**, choose a use case that best describes your messaging scenario:
    - **Standard** use cases are available for all registered brands and don't need additional approval from mobile carriers.
-   - **Special** use cases are sensitive or critical in nature and may require additional vetting or approval from mobile carriers.
+   - **Special** use cases are sensitive or critical in nature and may require additional approval from mobile carriers.
      :::warning
      Once you've created a campaign, you cannot change its use case.
      :::
